@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Upload Picture</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/flyer1.jpg">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+        <link rel="stylesheet" href="assets/styleupload.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+
+
+    <!- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-0eDvNopQ7VcjK6A8F7Vmr0v51xru6VwU6qxLOU6VJvo6v2d+7nnlzwlPdx8V7DnJzUxV6UwknKU/qc6UJ23l5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:dkonjesyonshow@gmail.com">dkonjesyonshow@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:4709078042">470 907 8042</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://www.facebook.com/dkonjesyonshow?mibextid=LQQJ4d" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/dkonjesyonshow/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                   </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+    <style>
+        .carte{
+            
+                margin-left: 10%;
+        }
+    </style>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success  align-self-center" href="index.html" >
+               <img src="assets/img/logo.png">
+            </a>
+
+            <div style="margin-left:5%; ">
+    <a href="https://dkonjesyonshow.com/shop.html#!/~/search"><i style='font-size:20px; color:black ;' class='fas'>&#xf002;</i>
+
+</div>
+
+                <div class="carte">
+                                 <a href="https://dkonjesyonshow.com/shop.html#!/~/cart"><i style='font-size:28px; color:black ;' class='fa'>&#xf217;</i></a> 
+
+                </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="shop.html">Shop</a>
+                           
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            
+                        </div>
+ 
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Close Header -->
+
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+<br>
+<br>
+<a href="https://dkonjesyonshow.com/shop.html#!/~/checkoutPD">
+  <i class="fas fa-arrow-left"></i> back to pay
+</a>
+
+<body>
+<div class="main-wrapper">
+
+
+<div class="page-wrapper bg-wrapper">
+<div class="content">
+<div class="row">
+<div class="col-sm-12">
+<h4 class="page-title"> </h4>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card-box">
+<h4 class="card-title">Upload your Picture & Quotes</h4>
+<div class="custom-file-container" data-upload-id="myFirstImage">
+	<label> <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Clear Image"  style="color:red;">Delete</a></label>
+<label class="custom-file-container__custom-file">
+	<form name="my-form"  action="#"  method="POST" netlify  data-netlify="true" onsubmit="submitForm(event)">
+<input type="file" name="Picture_Client" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+<label class="form-group row" class="col-form-label col-md-2">Quotes <i class="fas fa-quote-right"></i></label>
+<textarea rows="5" name="Quotes" cols="5" class="form-control" style="background-color:rgba(200, 191, 231, .3); border:5px;" placeholder="Enter Your Quotes"></textarea>
+<span class="custom-file-container__custom-file__custom-file-control"></span>
+</label>
+<div class="custom-file-container__image-preview"></div>
+<input type="submit" class="A" value="Send">
+</form>
+
+</div>
+</div>
+</div>
+<!-- Lien vers le script de Swal -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.js"></script>
+
+<script>
+  function submitForm(event) {
+    // empêcher l'envoi du formulaire par défaut
+    event.preventDefault();
+
+    // soumettre le formulaire à Netlify
+    document.forms["my-form"].submit();
+
+    // afficher une boîte de dialogue (Swal) pendant 5 secondes après l'envoi du formulaire
+    Swal.fire({
+      title: 'Formulaire envoyé',
+      text: 'Vous allez être redirigé dans 5 secondes...',
+      icon: 'success',
+      timer: 20000,
+      timerProgressBar: true,
+      showConfirmButton: false
+    }).then(() => {
+      // rediriger vers Ecwid
+      window.location.href = "https://dkonjesyonshow.com/shop.html#!/~/checkoutPD";
+    });
+  }
+</script>
+
+
+
+<style>
+	.A{
+		background-color: skyblue;
+		float: right;
+		width: 40%;
+margin-bottom:10px;	
+        height: 50px;
+        border-radius: 14px;
+
+}
+.A:hover{
+        background-color: blue;
+        float: right;
+        width: 40%;
+        height: 30px;
+margin-bottom:10px;
+ height: 50px;
+        border-radius: 14px;
+ }
+</style>
+  <!-- Start Footer -->
+    <footer style="width:100%;" class="bg-dark" id="tempaltemo_footer">
+        <div class="container" style="width:100%;">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <h2 class="">Dkonjesyonshow</h2>
+                     <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/dkonjesyonshow?mibextid=LQQJ4d"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://instagram.com/dkonjesyonshow?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                          <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.tiktok.com/@dkonjesyonshow"><i class="fab fa-tiktok fa-lg fa-fw"></i></a>
+                        </li>
+
+                       
+                    </ul>
+
+
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                           USA
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:+14132768784">+14132768784</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:Dkonjesyonshow@gmail.com">Dkonjesyonshow@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+              
+              
+
+            </div>
+
+           
+        </div>
+
+        <div class="w-100 bg-black ">
+            <div class="container" >
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2023 Developer Name 
+                            | Designed by <a rel="sponsored" href="https://Berventz.tk" target="_blank" style="color: skyblue; text-decoration: none;">WoodBerventz verdieu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+
+
+<script src="assets/plugins/fileupload/fileupload.min.js"></script>
+
+<script src="assets/js/app.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
